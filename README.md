@@ -12,3 +12,10 @@ Install bcmwl-kernel-source
 Make it so
 
 `$ sudo apt-get install -f `
+
+# Now fix the problem of the display shutting off from resume
+
+`$ sudo dpkg -i '/path/to/mba6xbl-dkms_1.0.0_all.deb' `
+`$ sudo modprobe mba6x_bl`
+`$ gnome-session-quit`
+
