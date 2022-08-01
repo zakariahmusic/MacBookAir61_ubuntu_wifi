@@ -7,7 +7,7 @@ Install dkms
 
 Install bcmwl-kernel-source
 
-`$ sudo dpkg -i  '/path/to/bcmwl-kernel-source_6.30.223.248+bdcom-0ubuntu8_amd64.deb'`
+`$ su_i kg -i  '/path/to/bcmwl-kernel-source_6.30.223.248+bdcom-0ubuntu8_amd64.deb'`
 
 Make it so
 
